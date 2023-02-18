@@ -4,7 +4,8 @@
 
 /*Prints positive
  * prints zero
- * prints negative */
+ * prints negative
+ */
 int main(void)
 {
 	int n;
