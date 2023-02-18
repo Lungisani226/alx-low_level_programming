@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*Prints positive
+/*
+ * Prints positive
  * prints zero
  * prints negative
  */
