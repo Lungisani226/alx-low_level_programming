@@ -5,18 +5,22 @@
  *
  * Return: Always 0 (success)
  */
-int main()
+int main(void)
 {
-	int n;
 
-	for (n = 0; n <= 9; n++)
+	for (int i = 1; i < 100 ; i++)
 {
-	putchar(n +  '0');
-	if (n == 9)
-	{break;}
-	putchar(',');
-	putchar(' ');
+
+		if ((i / 10) == (i % 10) || (i % 10) == 0 || (i / 10) > (i % 10))
+		{continue; }
+
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
+		if ((i / 10) == 8)
+			{break; }
+			putchar(',');
+			putchar(' ');
 }
-	putchar('\n');
-	{return 0; }
+			putchar('\n');
+		{return 0; }
 }
