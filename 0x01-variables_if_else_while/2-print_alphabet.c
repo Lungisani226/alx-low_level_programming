@@ -1,13 +1,19 @@
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
-int main()
+/**
+ * main - Prints alphabets
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
 {
-	char a;
-	for(a = 'a'; a <= 'z'; a++)
+	char a[26] = "abcdefghijklmnopqrstuvwxyz"
+	int i;
 
-	 putchar(a);
-         putchar('\n');   
-	
-	return 0;
+	for (i = 0; a <= 26; i++)
+	{
+		putchar(a[i]);
+	}
+		putchar('\n');
+		{return 0; }
 }

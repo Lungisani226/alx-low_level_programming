@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
+ * main - Dertermines if a number is positive, negative or zero
  *
- * Description: Longer description of the function
- * Return: Description of the returned value
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -15,6 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
