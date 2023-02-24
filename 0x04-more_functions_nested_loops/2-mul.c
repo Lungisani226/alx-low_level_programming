@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * nul - Multiplies two intergers
@@ -7,7 +8,7 @@
  * Return: The result of multiplication of x and y
  */
 
-int mul(int x, int y)
+int mul(int a, int b)
 {
-	return (x * y);
+	return (a * b);
 }
